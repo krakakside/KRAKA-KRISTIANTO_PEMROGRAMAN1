@@ -32,10 +32,10 @@ public class Latihan4 {
         UAS = sc.nextDouble();
 
         Tkehadiran = (kehadiran / realisasi) * 10;
-        Tugas = tugas * 0.2;
+        TTugas = tugas * 0.2;
         TUTS = UTS * 0.3;
         TUAS = UAS * 0.4;
-        nilaiAkhir = Tkehadiran + Tugas + TUTS + TUAS;
+        nilaiAkhir = Tkehadiran + TTugas + TUTS + TUAS;
         System.out.println("Nilai akhir " + nilaiAkhir);
         sc.close();
     }
