@@ -1,5 +1,6 @@
 import java.util.Scanner;
 public class Latihan2 {
+    //class error ganti dari latihan 1 ke latihan 2
         public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         String nama; int usia; String alamat; String nim;
