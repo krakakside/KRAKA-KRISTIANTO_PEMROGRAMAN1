@@ -10,8 +10,9 @@ public class TugasP7B {
         Scanner input = new Scanner(System.in);
         String hewan = "";
         System.out.println("index hewan (free version)");
-        System.out.print("Masukkan huruf (a sampai h): ");
+        System.out.print("Masukkan huruf awalan hewan  >");
         String huruf = input.nextLine();
+        System.out.println("\n\n");
 
         switch (huruf) {
             case "a":
@@ -52,18 +53,18 @@ public class TugasP7B {
                 break;
             case "m":
                 hewan = "monyet, macan, musang";
-                breka;
+                break;
             case "n":
-                hewan = "nyamuk, nila"
+                hewan = "nyamuk, nila";
                 break;
             case "o":
-                hewan = "orca, orangutan"
+                hewan = "orca, orangutan";
                 break;
             case "p":
                 hewan = "panda, paus, penyu";
                 break;
             case "q":
-                hewan = "indeks huruf ini tidak diketahui"
+                hewan = "indeks huruf ini tidak diketahui";
                 break;
             case "r":
                 hewan = "rakun, rusa, rubah";
@@ -93,10 +94,11 @@ public class TugasP7B {
                 hewan = "zebra";
                 break;
             default:
-                hewan = "hewan belum diketahui ";
+                hewan = "input harus alphabet DAN huruf kecil (a-z) ";
                 break;
         }
         System.out.println("hewan yang dipilih: " + hewan);
+        System.out.println("\n\n\n");
         input.close();
     }
     
