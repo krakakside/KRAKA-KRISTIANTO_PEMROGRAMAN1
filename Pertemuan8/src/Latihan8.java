@@ -28,7 +28,7 @@
 
 public class Latihan8 {
     public static void main(String[] args) throws Exception {
-        for (int a=1; a<=5; a+++){
+        for (int a=1; a<=5; a++){
             System.out.println("nilai for: " +a);
         }
         System.out.println("\n");
